@@ -1,0 +1,37 @@
+/* === GENERAL === */
+body {
+    background-color: #9cffea;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+/* === TITULOS === */
+h1 {
+    color: #0e0181;
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    border-bottom: 2px solid #1a73e8;
+    color: #0251b8;
+}
+/* === LISTAS === */
+ul { padding-left: 30px; }
+li {
+    list-style: square;
+    color: #030303;
+    margin-bottom: 5px;
+}
+/* === ENLACES === */
+.enlace-contacto {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 15px;
+    background-color: #0255c2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.enlace-contacto:hover {
+    background-color: #4390f5;
+}
