@@ -1,25 +1,21 @@
 /* === GENERAL === */
 body {
-    background-color: #9cffea;
+    background-color: #b1ffee;
     font-family: Arial, sans-serif;
     margin: 0;
 }
-/* === TITULOS === */
-h1 {
+/* === NAVBAR === */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px 40px;
+    background-color: #1fe5ff; 
+}
+.logo h1 {
     color: #0e0181;
-    text-align: center;
-    margin-top: 20px;
-}
-h2 {
-    border-bottom: 2px solid #1a73e8;
-    color: #0251b8;
-}
-/* === LISTAS === */
-ul { padding-left: 30px; }
-li {
-    list-style: square;
-    color: #030303;
-    margin-bottom: 5px;
+   font-size: 1.6rem;
+    margin: 0;
 }
 /* === ENLACES === */
 .enlace-contacto {
@@ -35,3 +31,53 @@ li {
 .enlace-contacto:hover {
     background-color: #4390f5;
 }
+/* === CONTENEDORES === */
+.contenedor-padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+.sobre-mi {
+    background-color: #83e9f7;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 4px 6px #0000001a;
+}
+h2 {
+    border-bottom: 2px solid #1a73e8;
+    color: #0251b8;
+    text-align: center;
+    margin-top: 10px;
+}
+.contenedor-tarjetas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tarjeta {
+    flex: 1;
+    background-color: #83e9f7;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px #0000001a;
+    text-align: left;
+}
+.tarjeta h3 {
+    color: #0a0158;    
+    text-align: center; 
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+}
+/* === LISTAS === */
+ul { padding-left: 20px; }
+li {
+    list-style: square;
+    color: #030303;
+    margin-bottom: 5px;
+}
+
